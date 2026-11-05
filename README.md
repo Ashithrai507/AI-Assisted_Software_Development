@@ -10,7 +10,7 @@ The workshop is divided into 3 sessions, each 1.5 hours long:
 |---|---|---|---|
 | 1 | Git, GitHub and Prompt Engineering | 1.5 Hours | [Session 1 Notes](sessions/session-1-git-github-prompt-engineering.md) |
 | 2 | AI Agents & AI-Assisted Coding Tools | 1.5 Hours | [Session 2 Notes](sessions/session-2-ai-agents-ai-assisted-coding-tools.md) |
-| 3 | Building a Real-World Application Using AI-Assisted Development Tools | 1.5 Hours | To be added |
+| 3 | Building a Real-World Application Using AI-Assisted Development Tools | 1.5 Hours | [Starter App](starter-app/README.md) |
 
 ## Learning Outcomes
 
@@ -40,9 +40,23 @@ By the end of this session, students will understand:
 
 ### Session 3: Building a Real-World Application Using AI-Assisted Development Tools
 
-To be announced.
+Project: **Campus Event Management App — CampusConnect**
+
+By the end of this session, students will have practiced:
+
+- Converting a real-world problem into an application.
+- Using AI agents for application development.
+- Generating frontend and backend code using prompts.
+- Understanding how frontend, backend and databases interact.
+- Implementing basic create, read, update and delete operations.
+- Testing and debugging an AI-generated application.
+- Building a functional software prototype in a limited time.
+
+The included starter is a static HTML/CSS wireframe with **no dependencies**; it has no `requirements.txt` because it does not use Python, Node or any package manager. If students later add Flask/SQLite persistence, Python dependencies should be recorded in `requirements.txt` at that stage. See [`starter-app/README.md`](starter-app/README.md) for the supported static baseline and suggested workflow.
 
 ## Session Materials
 
 - [Session 1: Git, GitHub and Prompt Engineering](sessions/session-1-git-github-prompt-engineering.md)
 - [Session 2: AI Agents and AI-Assisted Coding Tools](sessions/session-2-ai-agents-ai-assisted-coding-tools.md)
+- [Session 3 Starter App: CampusConnect](starter-app/README.md)
+- [Open the static CampusConnect wireframe](starter-app/index.html)
