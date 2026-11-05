@@ -19,7 +19,14 @@ This folder intentionally contains a static wireframe, not a completed applicati
 Open the home page directly in a browser:
 
 ```bash
+# macOS
 open starter-app/index.html
+
+# Windows
+start starter-app/index.html
+
+# Linux
+xdg-open starter-app/index.html
 ```
 
 Or double-click `starter-app/index.html`.

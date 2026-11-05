@@ -1,6 +1,6 @@
 # AI-Assisted Software Development
 
-A hands-on workshop for 3rd semester students covering how modern software is built in practice — from version control fundamentals to working effectively with Generative AI.
+A hands-on workshop for 3rd semester students covering how modern software is built in practice — from version control fundamentals and AI-assisted development to a hands-on CampusConnect project.
 
 ## Workshop Format
 
@@ -11,6 +11,12 @@ The workshop is divided into 3 sessions, each 1.5 hours long:
 | 1 | Git, GitHub and Prompt Engineering | 1.5 Hours | [Session 1 Notes](sessions/session-1-git-github-prompt-engineering.md) |
 | 2 | AI Agents & AI-Assisted Coding Tools | 1.5 Hours | [Session 2 Notes](sessions/session-2-ai-agents-ai-assisted-coding-tools.md) |
 | 3 | Building a Real-World Application Using AI-Assisted Development Tools | 1.5 Hours | [Starter App](starter-app/README.md) |
+
+## How to Use This Repository
+
+- `sessions/` contains the Session 1 and Session 2 student notes.
+- `starter-app/` contains the static CampusConnect baseline for Session 3.
+- The Session 3 starter has no dependencies — open it directly in a browser or see [`starter-app/README.md`](starter-app/README.md).
 
 ## Learning Outcomes
 
