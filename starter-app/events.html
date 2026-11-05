@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">CampusConnect</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html" aria-current="page">Events</a>
+        <a href="admin.html">Admin</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Events</h1>
+    <p class="lead">Browse the available college events and register using the form below.</p>
+
+    <section class="section" aria-labelledby="all-events-heading">
+      <h2 id="all-events-heading">Available events</h2>
+      <div class="card-grid">
+        <article class="card">
+          <p class="category">Workshop</p>
+          <h3>AI and Machine Learning Workshop</h3>
+          <p>Introduction to core machine learning concepts and practical AI tools.</p>
+          <dl class="details"><div><dt>Date</dt><dd>15 January 2026</dd></div><div><dt>Time</dt><dd>10:00 AM – 1:00 PM</dd></div><div><dt>Venue</dt><dd>Main Seminar Hall</dd></div></dl>
+          <a class="button" href="#registration">Register</a>
+        </article>
+        <article class="card">
+          <p class="category">Bootcamp</p>
+          <h3>Web Development Bootcamp</h3>
+          <p>Hands-on workshop covering HTML, CSS and JavaScript fundamentals.</p>
+          <dl class="details"><div><dt>Date</dt><dd>22 January 2026</dd></div><div><dt>Time</dt><dd>9:30 AM – 4:00 PM</dd></div><div><dt>Venue</dt><dd>Computer Lab 2</dd></div></dl>
+          <a class="button" href="#registration">Register</a>
+        </article>
+        <article class="card">
+          <p class="category">Competition</p>
+          <h3>Coding Competition</h3>
+          <p>Competitive programming challenge for students interested in algorithms.</p>
+          <dl class="details"><div><dt>Date</dt><dd>29 January 2026</dd></div><div><dt>Time</dt><dd>2:00 PM – 5:00 PM</dd></div><div><dt>Venue</dt><dd>Computer Lab 1</dd></div></dl>
+          <a class="button" href="#registration">Register</a>
+        </article>
+        <article class="card">
+          <p class="category">Exhibition</p>
+          <h3>Project Exhibition</h3>
+          <p>Showcase of student projects from across departments.</p>
+          <dl class="details"><div><dt>Date</dt><dd>5 February 2026</dd></div><div><dt>Time</dt><dd>11:00 AM – 4:00 PM</dd></div><div><dt>Venue</dt><dd>College Auditorium</dd></div></dl>
+          <a class="button" href="#registration">Register</a>
+        </article>
+        <article class="card">
+          <p class="category">Quiz</p>
+          <h3>Technical Quiz Competition</h3>
+          <p>A technical quiz covering programming, databases and emerging technology.</p>
+          <dl class="details"><div><dt>Date</dt><dd>12 February 2026</dd></div><div><dt>Time</dt><dd>12:00 PM – 2:00 PM</dd></div><div><dt>Venue</dt><dd>Seminar Hall B</dd></div></dl>
+          <a class="button" href="#registration">Register</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="registration" class="section panel" aria-labelledby="registration-heading">
+      <h2 id="registration-heading">Register for an event</h2>
+      <p>This form is a layout placeholder. Connecting it to validation and storage is part of the student activity.</p>
+      <form action="#registration" method="get">
+        <div class="form-row"><label for="student-name">Student name</label><input id="student-name" name="name" placeholder="Enter your name" /></div>
+        <div class="form-row"><label for="usn">USN / Student ID</label><input id="usn" name="usn" placeholder="e.g. 4VC23AI001" /></div>
+        <div class="form-row"><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="name@example.com" /></div>
+        <div class="form-row"><label for="department">Department</label><input id="department" name="department" placeholder="e.g. CSE" /></div>
+        <div class="form-row"><label for="selected-event">Selected event</label><select id="selected-event" name="event"><option>AI and Machine Learning Workshop</option><option>Web Development Bootcamp</option><option>Coding Competition</option><option>Project Exhibition</option><option>Technical Quiz Competition</option></select></div>
+        <button type="submit">Submit registration</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

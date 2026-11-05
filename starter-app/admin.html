@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Dashboard | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">CampusConnect</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="admin.html" aria-current="page">Admin</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Admin dashboard</h1>
+    <p class="lead">A static view of the information an administrator would manage.</p>
+
+    <section class="section" aria-labelledby="stats-heading">
+      <h2 id="stats-heading">Overview</h2>
+      <div class="stat-grid">
+        <div class="stat"><span class="stat-value">5</span><span>Total events</span></div>
+        <div class="stat"><span class="stat-value">0</span><span>Total registrations</span></div>
+        <div class="stat"><span class="stat-value">0</span><span>Events with registrations</span></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="events-heading">
+      <h2 id="events-heading">Available events</h2>
+      <div class="table-wrap"><table><thead><tr><th>Event</th><th>Participants</th></tr></thead><tbody><tr><td>AI and Machine Learning Workshop</td><td>0</td></tr><tr><td>Web Development Bootcamp</td><td>0</td></tr><tr><td>Coding Competition</td><td>0</td></tr><tr><td>Project Exhibition</td><td>0</td></tr><tr><td>Technical Quiz Competition</td><td>0</td></tr></tbody></table></div>
+    </section>
+
+    <section class="section panel" aria-labelledby="add-event-heading">
+      <h2 id="add-event-heading">Add new event</h2>
+      <p>This form is a layout placeholder. Saving and deleting events is part of the student activity.</p>
+      <form action="#add-event-heading" method="get">
+        <div class="form-row"><label for="event-name">Event name</label><input id="event-name" name="name" placeholder="Enter event name" /></div>
+        <div class="form-row"><label for="event-date">Date</label><input id="event-date" name="date" type="date" /></div>
+        <div class="form-row"><label for="event-venue">Venue</label><input id="event-venue" name="venue" placeholder="Enter venue" /></div>
+        <button type="submit">Add event</button>
+      </form>
+    </section>
+
+    <section class="section" aria-labelledby="participants-heading">
+      <h2 id="participants-heading">Registered participants</h2>
+      <div class="table-wrap"><table><thead><tr><th>Student Name</th><th>USN</th><th>Email</th><th>Department</th></tr></thead><tbody><tr><td colspan="4" class="empty-state">No participants registered yet.</td></tr></tbody></table></div>
+    </section>
+  </main>
+</body>
+</html>
